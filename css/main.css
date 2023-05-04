@@ -1,0 +1,52 @@
+.title {
+    padding-top: 10vh;
+    font-family: 'Bangers', cursive;
+    font-size: 5vh;
+    color: #fff;
+}
+
+.categorie-menu {
+    width: 40vw;
+    display: grid;
+    grid-template-columns: 
+    1fr 1fr;
+    gap: 1.5vw;
+}
+
+.categorie-menu-item {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.categorie-menu-item:hover {
+    transform: scale(1.05);
+}
+
+.categorie-menu-link {
+    background-color: #000000;
+    box-shadow: #0f1119 0rem 2rem 2rem -1rem;
+    border: 0.1rem solid #fff;
+    border-radius: 1rem;
+    display: block;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.categorie-menu-link:hover {
+    background: none;
+    border-color: #fff;
+}
+
+.categorie-menu-video {
+    border-radius: 1rem;
+    position: absolute;
+    width: 100%;
+}
+
+.categorie-menu-item:hover .categorie-menu-video {
+    display: block;
+}
+
+.categorie-menu-img {
+    width: 100%;
+}
