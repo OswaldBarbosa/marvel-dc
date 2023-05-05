@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -10,59 +10,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <script src="./js/teste.js"></script>
+    <script src="./js/router.js" defer type="module"></script>
     <title>DC & MARVEL</title>
 </head>
 
 <body>
 
-    <header>
+    <main id="root">
+        <!-- <a href="/dc" onclick="route()"class="categorie-menu-link">asdsadad</a>
+        <a href="/marvel" onclick="route()"class="categorie-menu-link">asdsadad</a> -->
 
-        <div class="left">
-            <img src="./img/logo__marvel.png" alt="" class="image__marvel">
+        <div class="header">
+
+            <div class="header-left">
+                <img src="./img/logo__marvel.png" alt="" class="image__marvel">
+            </div>
+
+            <div class="header-rigth">
+                <img src="./img/logo__dc.png" alt="" class="image__dc">
+            </div>
+
         </div>
 
-        <div class="rigth">
-            <img src="./img/logo__dc.png" alt="" class="image__dc">
+        <div class="main">
+
+            <p class="title">os principais personagens do universo da marvel e dc</p>
+
+            <ul class="categorie-menu">
+
+                <a class="categorie-menu-item" href="./pages/marvel.html">
+                    <video class="categorie-menu-video" src="./video/marvel.mp4" autoplay loop muted></video>
+                    <div class="link">
+                        <img class="categorie-menu-img" src="./img/marvel.png" alt="Marvel" />
+                    </div>
+                </a>
+
+                <a href="./pages/dc.html" class="categorie-menu-item">
+                    <video class="categorie-menu-video" src="./video/dc.mp4" autoplay loop muted></video>
+                    <div class="link">
+                        <img class="categorie-menu-img" src="./img/logo__dc.png" alt="DC" />
+                    </div>
+                </a>
+
+            </ul>
+
         </div>
 
-    </header>
+        <div class="footer">
 
-    <main>
+            <div class="footer-left">
 
-        <p class="title">os principais personagens do universo da marvel e dc</p>
+            </div>
 
-        <ul class="categorie-menu">
+            <div class="footer-rigth">
 
-            <li class="categorie-menu-item">
-                <video class="categorie-menu-video" src="./video/marvel.mp4" autoplay loop muted></video>
-                <a href="#" class="categorie-menu-link">
-                    <img class="categorie-menu-img" src="./img/marvel.png" alt="Marvel" />
-                </a>
-            </li>
+            </div>
 
-            <li class="categorie-menu-item">
-                <video class="categorie-menu-video" src="./video/dc.mp4" autoplay loop muted></video>
-                <a href="#" class="categorie-menu-link">
-                    <img class="categorie-menu-img" src="./img/logo__dc.png" alt="DC" />
-                </a>
-            </li>
-
-        </ul>
+        </div>
 
     </main>
-
-    <footer>
-
-        <div class="left"></div>
-
-        <div class="rigth"></div>
-
-    </footer>
 
 </body>
 
