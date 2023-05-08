@@ -8,52 +8,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <script src="./js/router.js" defer type="module"></script>
-    <title>DC & MARVEL</title>
+    <link rel="stylesheet" href="./index/css/reset.css">
+    <link rel="stylesheet" href="./index/css/style.css">
+    <link rel="stylesheet" href="./index/css/main.css">
+    <script src="./js/app.js" defer type="module"></script>
+    <title>Marvel & DC</title>
 </head>
 
 <body>
 
     <main id="root">
-        <!-- <a href="/dc" onclick="route()"class="categorie-menu-link">asdsadad</a>
-        <a href="/marvel" onclick="route()"class="categorie-menu-link">asdsadad</a> -->
 
         <div class="header">
 
             <div class="header-left">
-                <img src="./img/logo__marvel.png" alt="" class="image__marvel">
+                <img src="./index/img/logo__marvel.png" alt="" class="image__marvel">
             </div>
 
             <div class="header-rigth">
-                <img src="./img/logo__dc.png" alt="" class="image__dc">
+                <img src="./index/img/logo_dc.png" alt="" class="image__dc">
             </div>
 
         </div>
 
         <div class="main">
 
-            <p class="title">os principais personagens do universo da marvel e dc</p>
+            <h1>os principais personagens do universo da marvel e dc</h1>
 
-            <ul class="categorie-menu">
+            <div class="categorie-menu">
 
-                <a class="categorie-menu-item" href="./pages/marvel.html">
-                    <video class="categorie-menu-video" src="./video/marvel.mp4" autoplay loop muted></video>
+                <div class="categorie-menu-item">
+                    <video class="categorie-menu-video" src="./index/video/marvel.mp4" autoplay loop muted></video>
                     <div class="link">
-                        <img class="categorie-menu-img" src="./img/marvel.png" alt="Marvel" />
+                        <img class="categorie-menu-img" src="./index/img/marvel.png" alt="Marvel" />
+                        <a href="/marvel" onclick="route()" class="categorie-menu-link"> </a>
                     </div>
-                </a>
+                </div>
 
-                <a href="./pages/dc.html" class="categorie-menu-item">
-                    <video class="categorie-menu-video" src="./video/dc.mp4" autoplay loop muted></video>
+                <div class="categorie-menu-item">
+                    <video class="categorie-menu-video" src="./index/video/dc.mp4" autoplay loop muted></video>
                     <div class="link">
-                        <img class="categorie-menu-img" src="./img/logo__dc.png" alt="DC" />
+                        <img class="categorie-menu-img" src="./index/img/logo__dc.png" alt="Marvel" />
+                        <a href="/dc" onclick="route()" class="categorie-menu-link"> </a>
                     </div>
-                </a>
+                </div>
 
-            </ul>
+            </div>
 
         </div>
 

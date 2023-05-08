@@ -9,6 +9,9 @@ const route = async () => {
     window.event.preventDefault()
     window.history.pushState({}, "", window.event.target.href)
 
+    console.log(window.event.target);
+    
+
     const path = window.location.pathname
     console.log(path);
     
