@@ -1,14 +1,23 @@
-.container__card {
-    width: 100%;
+.container-card-foto {
     display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-    gap: 12px;
-    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
 }
 
-.card {
-    width: 10rem;
-    height: 15rem;
-    background-color: blue;
+.foto {
+    height: 45rem;
+}
+
+.container-card-status {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.card-status {
+    width: 35rem;
+    height: 45rem;
+    background-color: red;
 }
