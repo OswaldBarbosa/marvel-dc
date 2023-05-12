@@ -19,5 +19,22 @@
 .card-status {
     width: 35rem;
     height: 45rem;
-    background-color: red;
+    border: 2px solid #fff;
+    background-color: #000;
+}
+
+.teste {
+    display: grid;
+    grid-template-columns: 
+    50% 50%;
+}
+
+.header-status {
+    width: 100%;
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 
+    25% 25% 25% 25%;
+    background: red;
+    border-bottom: 2px solid #fff;
 }
